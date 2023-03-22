@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Recognition</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='style/css/emotion.css'>
+</head>
+<body>
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+          <pre><h2><span class="lab la-ello"></span>Speech Emotion  
+       Recognition</h2></pre>
+        </div>
+    
+        <div class="sidebar-menu">
+          <ul>
+            <li>
+              <a href="" class="active"><span class="las la-igloo"></span>
+                <span>Dashboard</span></a>
+            </li>
+            <li>
+              <a href="index.html"><span class="las la-home"></span>
+                <span>Home</span></a>
+            </li>
+            <li>
+              <a href="upload.html"><span class="las la-file-upload"></span>
+                <span>Upload Audio File</span></a>
+            </li>
+            <li>
+              <a href="recognition.html"><span class="las la-file-audio"></span>
+                <span>Emotion Recognition</span></a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+          <h2>
+            <label for="nav-toggle">
+              <span class="las la-bars"></span>
+            </label>
+            Dashboard
+          </h2>
+          <div class="output">Recognized Emotion : <%= ans %></div>
+        </header>
+        
+    </div>
+</body>
+</html>
