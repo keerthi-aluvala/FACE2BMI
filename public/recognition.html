@@ -1,55 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emotion Recognition</title>
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-    <link rel='stylesheet' type='text/css' media='screen' href='style/css/emotion.css'>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Speech Emotion Recognition</title>
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='style/css/style.css'>
+  <script src='recognition.js'></script>
 </head>
 <body>
-    <input type="checkbox" id="nav-toggle">
-    <div class="sidebar">
+  <input type="checkbox" id="nav-toggle">
+  <div class="sidebar">
+    <br />
+        <br />
         <div class="sidebar-brand">
-          <pre><h2><span class="lab la-ello"></span>Speech Emotion  
-       Recognition</h2></pre>
+          <pre><h1><span class="lab la-ello"></span>Dashboard</h1></pre>
         </div>
-    
+        <br />
+        <br />
         <div class="sidebar-menu">
           <ul>
-            <li>
-              <a href="" class="active"><span class="las la-igloo"></span>
-                <span>Dashboard</span></a>
-            </li>
+            
             <li>
               <a href="index.html"><span class="las la-home"></span>
                 <span>Home</span></a>
             </li>
-            <li>
-              <a href="upload.html"><span class="las la-file-upload"></span>
-                <span>Upload Audio File</span></a>
-            </li>
-            <li>
-              <a href="recognition.html"><span class="las la-file-audio"></span>
-                <span>Emotion Recognition</span></a>
-            </li>
-          </ul>
-        </div>
+        <li>
+          <a href="upload.html"><span class="las la-file-upload"></span>
+            <span>Upload File</span></a>
+        </li>
+        <li>
+          <a href="recognition.html"><span class="las la-file-audio"></span>
+            <span>Results</span></a>
+        </li>
+      </ul>
     </div>
-    <div class="main-content">
-        <header>
-          <h2>
-            <label for="nav-toggle">
-              <span class="las la-bars"></span>
-            </label>
-            Dashboard
-          </h2>
-          <div class="output">Recognized Emotion : <%= ans %></div>
-          console.log(ans)
-        </header>
+  </div>
+  <div class="main-content">
+    <header>
+      <h2>
+        Know Your Body Mass Index
+      </h2>
+    </header>
+
+    <main>
+      <div >
         
-    </div>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
